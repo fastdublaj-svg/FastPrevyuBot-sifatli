@@ -441,7 +441,7 @@ def start_text(user_id: int) -> str:
     )
 
 
-async def resolve_user(arg: str): Optional[int]:
+async def resolve_user(arg: str) -> Optional[int]:
     arg = arg.strip()
 
     if not arg:
