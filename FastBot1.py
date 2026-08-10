@@ -3,7 +3,9 @@ from aiogram import Bot, Dispatcher, F
 from aiogram.types import Message, ReplyKeyboardMarkup, KeyboardButton
 from aiogram.filters import Command
 from datetime import datetime
-TOKEN = "8638068274:AAFIk6QdGkszQsybzdyqSkVmqA7-W9ZTouU"  # o'zingiz TOKEN qo'yasiz
+import os
+
+TOKEN = os.getenv("BOT_TOKEN")
 ADMIN_ID = 7543852010
 ADMIN_USERNAME = "@Fast_gamer_uz"
 
